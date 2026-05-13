@@ -116,5 +116,5 @@ public class CatalogController {
         catalogService.deleteRoomType(roomTypeId);
         return ResponseEntity.noContent().build();
     }
-    
+
 }
