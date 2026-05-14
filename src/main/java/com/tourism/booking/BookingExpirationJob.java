@@ -14,7 +14,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class BookingExpirationJob {
 
-
     private final BookingRepository bookingRepository;
 
     @Scheduled(fixedRate = 300000) // كل 5 دقائق
